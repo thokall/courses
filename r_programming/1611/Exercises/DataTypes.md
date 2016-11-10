@@ -1,22 +1,4 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#orgheadline1">1. Introduction</a></li>
-<li><a href="#orgheadline2">2. Data types</a></li>
-<li><a href="#orgheadline6">3. R data structures</a>
-<ul>
-<li><a href="#orgheadline3">3.1. Vectors</a></li>
-<li><a href="#orgheadline4">3.2. Exercise A. Create and work with vectors</a></li>
-<li><a href="#orgheadline5">3.3. Exercise B. Modify and subset vectors</a></li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-
-
-# Introduction<a id="orgheadline1"></a>
+# Introduction
 
 There are several different data structured that are commonly used in
 R. The different data structures can be seen as different ways to
@@ -32,7 +14,7 @@ know:
 -   How one can use R functions to determine the structure and mode of an object.
 -   How one can subset and work with different data structures in R.
 
-# Data types<a id="orgheadline2"></a>
+# Data types
 
 All entries in the data stuctures found in R will be of a certain type
 (or have a certain mode), The four most commonly used data types in R
@@ -51,13 +33,13 @@ string like "hello world" it will have the mode character. Below you
 will also see examples of how you can specify the mode and not rely on
 R inferring the right mode based on content.
 
-# R data structures<a id="orgheadline6"></a>
+# R data structures
 
 Depending on the type of data one needs to store in R different data
 structures can be used. The four most commonly used data types in R is
 vectors, lists, matrixes and data frames.
 
-## Vectors<a id="orgheadline3"></a>
+## Vectors
 
 The most basic data structure in R are vectors. Vectors are
 1-dimensional data structures that contain only one type of data
@@ -117,7 +99,7 @@ move forward. If you can not figure out how to run the command you can
 click the key to reveal code and output that are expected from the
 analysis.
 
-## Exercise A. Create and work with vectors<a id="orgheadline4"></a>
+## Exercise A. Create and work with vectors
 
 Open R-studio and create two numeric vectors named x and y that are of equal length
 
@@ -171,7 +153,7 @@ Answer the following questions
     
         [1] 3
 
-## Exercise B. Modify and subset vectors<a id="orgheadline5"></a>
+## Exercise B. Modify and subset vectors
 
 Create a new character vector that the following words and save it using a suitable name:
 apple, banana, orange, kiwi, potato
