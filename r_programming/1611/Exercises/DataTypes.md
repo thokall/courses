@@ -118,114 +118,187 @@ y <- c(1, 5, 11)
 
 Answer the following questions
 
-1.  How many numbers is there in x?
+1. How many numbers is there in x?
 <details>
 <summary>:key: Click to see an example of how to do this in R</summary>
 {% highlight R %}
 length(x)
+
 [1] 3
 {% endhighlight %} 
 </details>  
 
-2.  How many numbers in y?
-    
-        length(y)
-    
-        [1] 3
+2. How many numbers in y?
+<details>
+<summary>:key: Click to see an example of how to do this in R</summary>
+{% highlight R %}
+length(y)
+
+[1] 3
+{% endhighlight %} 
+</details>  
 
 3.  What is the sum of all values in x?
-    
-        sum(x)
-    
-        [1] 13
+<details>
+<summary>:key: Click to see an example of how to do this in R</summary>
+{% highlight R %}
+sum(x)
+
+[1] 13
+{% endhighlight %} 
+</details>  
 
 4.  What is the sum of y times y?
-    
-        sum(y*y)
-    
-        [1] 147
+<details>
+<summary>:key: Click to see an example of how to do this in R</summary>
+{% highlight R %}
+sum(y*y)
+
+[1] 147
+{% endhighlight %} 
+</details>
+
 5.  What is the result of adding x and y?
-    
-        x + y
-    
-        [1]  3  9 18
+<details>
+<summary>:key: Click to see an example of how to do this in R</summary>
+{% highlight R %}
+x + y
+
+[1]  3  9 18
+{% endhighlight %} 
+</details>
+
 6.  Assign x times y to a new variable named z
-    
-        z <- x * y
+<details>
+<summary>:key: Click to see an example of how to do this in R</summary>
+{% highlight R %}
+z <- x * y
+{% endhighlight %} 
+</details>
 
 7.  How many numbers will this new variable z hold?
-    
-        length(z)
-    
-        [1] 3
+<details>
+<summary>:key: Click to see an example of how to do this in R</summary>
+{% highlight R %}
+length(z)
+
+[1] 3
+{% endhighlight %} 
+</details>
 
 ## Exercise B. Modify and subset vectors<a id="orgheadline5"></a>
 
 Create a new character vector that the following words and save it using a suitable name:
 apple, banana, orange, kiwi, potato
 
-    veggies <- c("apple", "banana", "orange", "kiwi", "potato")
+<details>
+<summary>:key: Click to see an example of how to do this in R</summary>
+{% highlight R %}
+veggies <- c("apple", "banana", "orange", "kiwi", "potato")
+{% endhighlight %} 
+</details>
 
 Do the following on your newly created vector.
 
-1.  Select orange from the vector
-    
-        veggies[3]
+1.  Select orange
+<details>
+<summary>:key: Click to see an example of how to do this in R</summary>
+{% highlight R %}
+veggies[3]
+{% endhighlight %} 
+</details>
+
 2.  Select all fruits in the vector
-    
-        veggies[-5]
-        veggies[1:4]
+<details>
+<summary>:key: Click to see an example of how to do this in R</summary>
+{% highlight R %}
+veggies[-5]
+veggies[1:4]
+{% endhighlight %} 
+</details>
+
 3.  Do the same selection as in question 2 without using index positions
-    
-        veggies[veggies!="potato"]
+<details>
+<summary>:key: Click to see an example of how to do this in R</summary>
+{% highlight R %}
+veggies[veggies!="potato"]
+{% endhighlight %} 
+</details>
+
 4.  Convert the character string to a numeric vector
-    
-        as.numeric(veggies)
+<details>
+<summary>:key: Click to see an example of how to do this in R</summary>
+{% highlight R %}
+as.numeric(veggies)
+{% endhighlight %} 
+</details>
 
 5.  Create a vector of logic values that can be used to extract every second value from your character vector
-    
-        selection <- c(FALSE, TRUE, FALSE, TRUE, FALSE)
-        veggies[selection]
-    
-    Alternative solution
-    
-        selection2 <- c(FALSE, TRUE)
-        veggies[selection2]
+<details>
+<summary>:key: Click to see an example of how to do this in R</summary>
+{% highlight R %}
+selection <- c(FALSE, TRUE, FALSE, TRUE, FALSE)
+veggies[selection]
+{% endhighlight %} 
+</details>
+
+Alternative solution
+<details>
+<summary>:key: Click to see an example of how to do this in R</summary>
+{% highlight R %}
+selection2 <- c(FALSE, TRUE)
+veggies[selection2]
+{% endhighlight %} 
+</details>
+
 6.  Create a vector containing all the letters in the alphabet (NB! this
     can be done without having to type all letters). Google is your friend
-    
-        letters
-    
-         [1] "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s"
-        [20] "t" "u" "v" "w" "x" "y" "z"
+<details>
+<summary>:key: Click to see an example of how to do this in R</summary>
+{% highlight R %}
+letters
+
+[1] "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s"
+[20] "t" "u" "v" "w" "x" "y" "z"
+{% endhighlight %} 
+</details>
 
 7.  Extract the letter 14 to 19 from the created vector
-    
-        letters[14:19]
-    
-        [1] "n" "o" "p" "q" "r" "s"
+<details>
+<summary>:key: Click to see an example of how to do this in R</summary>
+{% highlight R %}
+letters[14:19]
+
+[1] "n" "o" "p" "q" "r" "s"
+{% endhighlight %} 
+</details>
 
 8.  Extract all but the last letter
-    
-        letters[1:length(letters)-1]
-        letters[-length(letters)]
-    
-         [1] "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s"
-        [20] "t" "u" "v" "w" "x" "y"
+<details>
+<summary>:key: Click to see an example of how to do this in R</summary>
+{% highlight R %}
+letters[1:length(letters)-1]
+letters[-length(letters)]
+[1] "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s"
+[20] "t" "u" "v" "w" "x" "y"
          
-        [1] "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s"
-        [20] "t" "u" "v" "w" "x" "y"
+[1] "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s"
+[20] "t" "u" "v" "w" "x" "y"
+{% endhighlight %} 
+</details>
 
 9.  Make R print the position of the letter u in the vector
-    
-        test <- c(letters, "u")
-        match("u", test)
-        #test
-        which(test%in%"u")
-    
-        [1] 21
-        [1] 21 27
+<details>
+<summary>:key: Click to see an example of how to do this in R</summary>
+{% highlight R %}
+match("u", test)
+{% endhighlight %} 
+</details>
 
 10. Create a new vector of length one that holds all the alphabet a single entry
-    
-        paste(letters, sep = "", collapse = "")
+<details>
+<summary>:key: Click to see an example of how to do this in R</summary>
+{% highlight R %}  
+paste(letters, sep = "", collapse = "")
+{% endhighlight %} 
+</details>

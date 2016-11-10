@@ -107,7 +107,7 @@ Some commonly used tools besides R-studio are:
     writing your code and then just run the code from within R using
     copy/paste or by submitting all your code as scripts to R.
 
-# Some useful online resources
+# Useful R online resources
 
 If you are eager to try things out before the course starts the
 following links goes to some useful material on using R.
@@ -143,7 +143,7 @@ following links goes to some useful material on using R.
   that offers a more unified interaction with objects and functions
   under this approach to data analysis.
 
-# Non-R useful online resources
+# Useful Non-R specific online resources
 
 - [http://biosupport.se/](http://biosupport.se/)  
 - [http://www.biostars.org/](http://www.biostars.org/)  

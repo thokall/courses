@@ -1,4 +1,7 @@
---- layout: default title: 'Travel' ---
+--- 
+layout: default 
+title: 'Travel' 
+---
 
 # Travel Information
 
@@ -7,7 +10,7 @@ The ticket price is the **same for all trips within Uppsala**,
 regardless wich stations you travel between. Pay your bus ticket with
 your **visa/mastercard card onboard the buss** (35kr) or **get the
 [UL app](https://www.ul.se/skaffaappen/)** and buy the ticket before
-boarding the buss (27kr).  Please see [www.ul.se](www.ul.se) for
+boarding the buss (27kr). Please see [www.ul.se](www.ul.se) for
 timetables. Use the UL journey planner and search the addresses as
 written below.
 
