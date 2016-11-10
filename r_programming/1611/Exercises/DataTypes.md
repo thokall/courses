@@ -104,7 +104,7 @@ move forward. If you can not figure out how to run the command you can
 click the key to reveal code and output that are expected from the
 analysis.
 
-## Exercise A. Create and work with vectors<a id="orgheadline4"></a>
+## Exercise A1. Create and work with vectors<a id="orgheadline4"></a>
 
 Open R-studio and create two numeric vectors named x and y that are of equal length
 
@@ -119,13 +119,14 @@ y <- c(1, 5, 11)
 Answer the following questions
 
 1.  How many numbers is there in x?
-	<details>
-	<summary>:key: Click to see an example of how to do this in R</summary>
-	{% highlight R %}
-	length(x)
-    [1] 3
-	{% endhighlight %} 
-	</details>
+<details>
+<summary>:key: Click to see an example of how to do this in R</summary>
+{% highlight R %}
+length(x)
+[1] 3
+{% endhighlight %} 
+</details>  
+
 2.  How many numbers in y?
     
         length(y)
