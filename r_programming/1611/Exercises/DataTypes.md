@@ -83,6 +83,8 @@ will turn the whole vector to a numeric vector.
 
 To check what data type an object is, run the R built-in function
 class(), with the object as the only parameter.
+TEST
+
 ```r
 library(limma)
 class(example.vector)
