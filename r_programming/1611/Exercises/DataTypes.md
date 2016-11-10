@@ -124,10 +124,8 @@ Answer the following questions
 	<details>
 	<summary>:key: Click to see an example of how to do this in R</summary>
 	{% highlight R %}
-	
-        length(x)
-    
-        [1] 3
+	length(x)
+    [1] 3
 	{% endhighlight %} 
 	</details>  
 2.  How many numbers in y?
