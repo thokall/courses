@@ -83,11 +83,11 @@ will turn the whole vector to a numeric vector.
 
 To check what data type an object is, run the R built-in function
 class(), with the object as the only parameter.
+```R
+class(example.vector)
 
-    class(example.vector)
-
-    [1] "numeric"
-
+[1] "numeric"
+```
 If you for any reason want to have more information about any object
 you have stored in your R session the command str() is very helpful. 
 
