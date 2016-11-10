@@ -89,6 +89,13 @@ class(example.vector)
 
 [1] "numeric"
 ```
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
 If you for any reason want to have more information about any object
 you have stored in your R session the command str() is very helpful. 
 
