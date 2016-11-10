@@ -124,11 +124,6 @@ following links goes to some useful material on using R.
   language. Is a great source of information for anyone that wants to
   use R not only as a statistical analysis tools, but also use it as a
   more general programming language.
-- [Stackoverflow](http://stackoverflow.com)  
-  Many common problems have been asked and addressed here. If you have
-  problems this is also a place where you can post your own questions. Note
-  that before asking questions here, make sure the problem you have
-  have not been already answered on the forum.
 - [R for data science](http://r4ds.had.co.nz)  
   The basics of getting data into R, clean the data do your
   analysis. One of the authors of this book Hadley Wickham is also
@@ -144,6 +139,14 @@ following links goes to some useful material on using R.
   them. This means that code using them will look different to most
   other R code. If you like this way of working, there is a  whole set
   of packages often referred to as the
-  [tidyverse](https://blog.rstudio.org/2016/09/15/tidyverse-1-0-0/)
+  [tidyverse](https://blog.rstudio.org/2016/09/15/tidyverse-1-0-0)
   that offers a more unified interaction with objects and functions
   under this approach to data analysis.
+
+# Non-R useful online resources
+
+- [http://biosupport.se/](http://biosupport.se/)  
+- [http://www.biostars.org/](http://www.biostars.org/)  
+- [http://seqanswers.com/](http://seqanswers.com/)  
+- [Stackoverflow](http://stackoverflow.com)  
+  
