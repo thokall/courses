@@ -117,7 +117,7 @@ following links goes to some useful material on using R.
 - [A short introduction to R](https://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf)  
   A very short intro to using R.
 - [An introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.html)  
-	A fairly comprehensive document on R. As a beginner one can start
+  A fairly comprehensive document on R. As a beginner one can start
   with Appendix A that is a short practical session. 
 - [The art of R programming](http://heather.cs.ucdavis.edu/~matloff/132/NSPpart.pdf)  
   A pdf copy of a book that deals with R as a programming
