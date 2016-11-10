@@ -118,25 +118,25 @@ y <- c(1, 5, 11)
 
 Answer the following questions
 
-1. How many numbers is there in x?
-<details>
-<summary>:key: Click to see an example of how to do this in R</summary>
-{% highlight R %}
-length(x)
+- How many numbers is there in x?
+  <details>
+  <summary>:key: Click to see an example of how to do this in R</summary>
+  {% highlight R %}
+  length(x)
+  
+  [1] 3
+  {% endhighlight %} 
+  </details>  
 
-[1] 3
-{% endhighlight %} 
-</details>  
-
-2. How many numbers in y?
-<details>
-<summary>:key: Click to see an example of how to do this in R</summary>
-{% highlight R %}
-length(y)
-
-[1] 3
-{% endhighlight %} 
-</details>  
+- How many numbers in y?
+  <details>
+  <summary>:key: Click to see an example of how to do this in R</summary>
+  {% highlight R %}
+  length(y)
+  
+  [1] 3
+  {% endhighlight %} 
+  </details>  
 
 3.  What is the sum of all values in x?
 <details>
