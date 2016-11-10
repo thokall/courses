@@ -17,7 +17,7 @@ Room: [Trippelrummet, E10, ground floor](files/bmc_map.jpg)
 **Tuesday**  
 Room: [Trippelrummet, E10, ground floor](files/bmc_map.jpg)   
 **09.00-11.00** [Lecture: Elements of a programming language - part 1](Lectures/ElementsOfAprogrammingLanguage1.pdf) (Marcin Kierczak)  
-**11.00-12.00** [Exercise: Datatypes part 1 - Working with vectors](Exercises/DataTypes.md) (Thomas Källman, ...)  
+**11.00-12.00** [Exercise: Datatypes part 1 - Working with vectors](Exercises/DataTypes) (Thomas Källman, ...)  
 **12.00-13.00** Lunch at BMC restaurant  
 **13:00-17:00** [Exercise: Datatypes part 1 - Working with vectors cont.](Exercises/DataTypesStructure1) (Thomas Källman, ...)  
 
