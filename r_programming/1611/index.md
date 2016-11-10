@@ -18,6 +18,6 @@ Held in Uppsala November 28 - December 2, 2016.
 [Travel Info](travel)  
 
 ## Teachers
-Marcin Kiercak - Uppsala University
-Thomas Källman - Uppsala University, NBIS, Sclilifelab
+Marcin Kiercak - Uppsala University  
+Thomas Källman - thomas.kallman@nbis.se, Uppsala University, NBIS, Sclilifelab  
 ...
