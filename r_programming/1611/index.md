@@ -1,12 +1,12 @@
 ---
 layout: default
-title:  'Introduction to Bioinformatics Using NGS Data - September 2016'
----
+title:  'R Programming Foundations for Life Scientists, 2 hp - November 2016'
+--- 
 
 
-# Introduction to Bioinformatics Using NGS Data
+# R Programming Foundations for Life Scientists, 2 hp
 
-Held in Uppsala September 19-23, 2016.
+Held in Uppsala November 28 - December 2, 2016.
 
 ## Important Links
 [Pre-course material](precourse)   
@@ -16,11 +16,6 @@ Held in Uppsala September 19-23, 2016.
 [Map over Uppsala](https://www.google.se/maps/@59.8557755,17.6369985,13.5z)  
 [Map over Uppsala Biomedical Centre (BMC)](../common/images/bmc_map.jpg)  
 [Travel Info](travel)   
-
-## Helpful Things
-[Linux cheat sheet](../common/images/linux-cheat-sheet.pdf)  
-[UPPMAX cheat sheet](../common/images/uppmax-cheat-sheet.png)  
-[Mac keyboard layout](../common/mac-keyboard)  
 
 ## External Resources
 [IGV (Integrative Genomics Viewer) Home](https://www.broadinstitute.org/igv/)  
