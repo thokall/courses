@@ -25,7 +25,7 @@ Room: [Trippelrummet, E10, ground floor](files/bmc_map.jpg)
 
 **Wednesday** 
 Room: [Trippelrummet, E10, ground floor](files/bmc_map.jpg)  
-**09:00-10:00** [Lecture: Elements of a programming language - part 3 ](Lectures/ElementsOfAprogrammingLanguage3.pdf) (Marcin Kierczak)
+**09:00-10:00** [Lecture: Elements of a programming language - part 3 ](Lectures/ElementsOfAprogrammingLanguage3.pdf) (Marcin Kierczak)  
 **10:00-11:00** [Lecture: Loading data](Lectures/Loading_data.pdf) (Thomas Källman, ...)  
 **11:00-12:00** [Exercise: Loding data](Exercises/LoadingData) (Thomas Källman, ...) 
 **12:00-13:00** Lunch at BMC restaurant  
@@ -36,11 +36,11 @@ Room: [Trippelrummet, E10, ground floor](files/bmc_map.jpg)
 **Thursday**  
 Room: [Trippelrummet, E10, ground floor](files/bmc_map.jpg)   
 **09:00-10:00** [Lecture: Functions in R ](Lectures/Functions.pdf) (Marcin Kierczak) 
-**10:00-11:00** [Lecture: Graphics](Lectures/Graphics.pdf)
+**10:00-11:00** [Lecture: Graphics](Lectures/Graphics.pdf)  
 **11:00-12:00** [Exercise: Functions in R](Exercises/functions.pdf) (Thomas Källman, ...) 
 **12:00-13:00** Lunch at BMC restaurant  
 **13:00-15:00** [Exercise: Functions in R cted.](Exercises/functions.pdf) (Thomas Källman, ...)  
-**15:00-17:00** [Exercise: Graphics in R cted.](Exercises/graphics.pdf) (Thomas Källman, ...)
+**15:00-17:00** [Exercise: Graphics in R cted.](Exercises/graphics.pdf) (Thomas Källman, ...)  
 
 **Friday**
 Room: [Trippelrummet, E10, ground floor](files/bmc_map.jpg)   
