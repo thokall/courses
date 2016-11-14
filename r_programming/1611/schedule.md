@@ -10,7 +10,7 @@ Room: [Trippelrummet, E10, ground floor](files/bmc_map.jpg)
 **09.00-09.15** [Registration and Welcome, presentation of SciLifeLab ](Lectures/Welcome.pdf) (Thomas Källman)  
 **09:15-10:00** [Lecture: Introduction to R programming](Lectures/Intro.pdf) (Marcin Kierczak)  
 **10:15-10:45** [Lecture: The R environment](Lectures/REnvironment.pdf) (Marcin Kierczak, Thomas Källman, ...)  
-**11:00-12:00** [Exercise and video: Using R-studio](Link to your movie1, best to keep them outside git) (Marcin Kierczak, Thomas Källman, ... )
+**11:00-12:00** [Exercise and video: Using R-studio](Link to your movie1, best to keep them outside git) (Marcin Kierczak, Thomas Källman, ...)  
 **12:00-13:00** Lunch at BMC restaurant  
 **13:00-15:00** [Lecture: Elements of R programming - part 1a](Lectures/ElementsOfAprogrammingLanguage1.pdf) (Marcin Kierczak)    
 **15:00-17:00** [Exercise: Datatypes part 1 - Working with vectors](Exercises/DataTypes) (Marcin Kierczak, Thomas Källman, ... )  
@@ -45,8 +45,7 @@ Room: [Trippelrummet, E10, ground floor](files/bmc_map.jpg)
 **Friday**
 Room: [Trippelrummet, E10, ground floor](files/bmc_map.jpg)   
 **09:00-10:00** [Lecture: ggplot2](Lectures/ggplot2.pdf) (Marcin Kierczak)  
-**10:00-11:00** [Live presentation: Explanatory programming](Lectures/expl_prog.pdf) (Marcin Kierczak)
-**11:00-12:00** Q&A session.
-**10:15-
+**10:00-11:00** [Live presentation: Explanatory programming](Lectures/expl_prog.pdf) (Marcin Kierczak)  
+**11:00-12:00** Q&A session.  
 **12.00-13.00** Lunch at BMC restaurant  
 **13:00-16.00** [Graphics in R: ggplot2](Exercises/Graphics) (Thomas Källman, ...)  
