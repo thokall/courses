@@ -42,7 +42,7 @@ Room: [Trippelrummet, E10, ground floor](files/bmc_map.jpg)
 **13:00-15:00** [Exercise: Functions in R cted.](Exercises/functions.pdf) (Thomas Källman, ...)  
 **15:00-17:00** [Exercise: Graphics in R cted.](Exercises/graphics.pdf) (Thomas Källman, ...)
 
-**Friday**  
+**Friday**
 Room: [Trippelrummet, E10, ground floor](files/bmc_map.jpg)   
 **09:00-10:00** [Lecture: ggplot2](Lectures/ggplot2.pdf) (Marcin Kierczak)  
 **10:00-11:00** [Live presentation: Explanatory programming](Lectures/expl_prog.pdf) (Marcin Kierczak)
