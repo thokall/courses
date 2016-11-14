@@ -26,8 +26,8 @@ Room: [Trippelrummet, E10, ground floor](files/bmc_map.jpg)
 **Wednesday** 
 Room: [Trippelrummet, E10, ground floor](files/bmc_map.jpg)  
 **09:00-10:00** [Lecture: Elements of a programming language - part 3 ](Lectures/ElementsOfAprogrammingLanguage3.pdf) (Marcin Kierczak)  
-**10:00-11:00** [Lecture: Loading data](Lectures/Loading_data.pdf) (Thomas Källman, ...)  
-**11:00-12:00** [Exercise: Loding data](Exercises/LoadingData) (Thomas Källman, ...) 
+**10:00-11:00** [Lecture: Loading data](Lectures/Loading_data.pdf) (Thomas Källman, ...)    
+**11:00-12:00** [Exercise: Loding data](Exercises/LoadingData) (Thomas Källman, ...)  
 **12:00-13:00** Lunch at BMC restaurant  
 **13:00-17:00** [Exercise: Datatypes part 3 - loops, conditional statements, functions, variable scope](Exercises/LoadingData) (Thomas Källman, ...)  
 
