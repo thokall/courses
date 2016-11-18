@@ -11,7 +11,7 @@ Held in Uppsala November 28 - December 2, 2016.
 ## Important Links
 [Pre-course material](precourse)   
 [Schedule](schedule)  
-[Additional reading materials](reading)
+[Additional reading materials](reading)  
 
 ## Maps & Travel Info
 [Map over Uppsala](https://www.google.se/maps/@59.8557755,17.6369985,13.5z)  
@@ -19,6 +19,6 @@ Held in Uppsala November 28 - December 2, 2016.
 [Travel Info](travel)  
 
 ## Teachers
-Marcin Kiercak - Uppsala University  
-Thomas Källman - thomas.kallman@nbis.se, Uppsala University, NBIS, Sclilifelab  
+Marcin Kierczak - marcin.kierczak@imbim.uu.se, Uppsala University, SciLifeLab  
+Thomas Källman - thomas.kallman@nbis.se, Uppsala University, NBIS, ScliLifeLab  
 ...

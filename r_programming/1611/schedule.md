@@ -19,20 +19,20 @@ Room: [Trippelrummet, E10, ground floor](files/bmc_map.jpg)
 Room: [Trippelrummet, E10, ground floor](files/bmc_map.jpg)   
 **11:00-12:00** [Exercise and video: Using R-studio](Link to your movie1, best to keep them outside git) (Marcin Kierczak, Thomas Källman, ... )  
 **12:00-13:00** Lunch at BMC restaurant  
-**13:00-15:00** [Lecture: Elements of R programming - part 1a](Lectures/ElementsOfAprogrammingLanguage1.pdf) (Marcin Kierczak)  
+**13:00-15:00** [Lecture: Elements of R programming - part 1](Lectures/ElementsOfAprogrammingLanguage1.pdf) (Marcin Kierczak)  
 **15:00-17:00** [Exercise: Datatypes part 1 - Working with vectors](Exercises/DataTypes) (Marcin Kierczak, Thomas Källman, ... )  
 
 **Tuesday**  
 Room: [Trippelrummet, E10, ground floor](files/bmc_map.jpg)  
-**09:00-10:00** [Lecture: Elements of the programming language - part 1b](Lectures/ElementsOfAprogrammingLanguage1.pdf) (Marcin Kierczak)  
-**10:00-11:00** [Lecture: Elements of the programming language - part 2](Lectures/ElementsOfAprogrammingLanguage2.pdf) (Marcin Kierczak)  
+**09:00-10:00** [Lecture: Elements of the programming language - part 2](Lectures/ElementsOfAprogrammingLanguage1.pdf) (Marcin Kierczak)  
+**10:00-11:00** [Lecture: Elements of the programming language - part 3](Lectures/ElementsOfAprogrammingLanguage2.pdf) (Marcin Kierczak)  
 **11:00-12:00** [Exercise: Datatypes part 1 - Working with vectors cont.](Exercises/DataTypesStructure1) (Thomas Källman, ...)  
 **12:00-13:00** Lunch at BMC restaurant  
 **13:00-17:00** [Exercise: Datatypes part 2 - matrices, lists, data frames](Exercises/DataTypesStructure2) (Thomas Källman, ...)  
 
 **Wednesday**  
 Room: [Trippelrummet, E10, ground floor](files/bmc_map.jpg)  
-**09:00-10:00** [Lecture: Elements of the programming language - part 3 ](Lectures/ElementsOfAprogrammingLanguage3.pdf) (Marcin Kierczak)  
+**09:00-10:00** [Lecture: Elements of the programming language - part 4](Lectures/ElementsOfAprogrammingLanguage3.pdf) (Marcin Kierczak)  
 **10:00-11:00** [Lecture: Loading data](Lectures/Loading_data.pdf) (Thomas Källman, ...)     
 **11:00-12:00** [Exercise: Loading data](Exercises/LoadingData) (Thomas Källman, ...)    
 **12:00-13:00** Lunch at BMC restaurant  
