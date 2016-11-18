@@ -1,15 +1,25 @@
 ###########
 # site.url, site.title
 
+<<<<<<< HEAD
 url:   'https://thokall.github.io/courses'
 title: 'Courses test'
 # google_analytics: 'UA-23985298-11'
+=======
+url:   'https://scilifelab.github.io/courses'
+title: 'SciLifeLab Courses'
+google_analytics: 'UA-23985298-11'
+>>>>>>> 2008b04e29c4595fdd942917f988a15bd87daa2e
 
 
 ########
 # more settings
 
+<<<<<<< HEAD
 # markdown: kramdown
+=======
+#markdown: kramdown
+>>>>>>> 2008b04e29c4595fdd942917f988a15bd87daa2e
 
 # pygments: true
 highlighter: rouge
