@@ -1,0 +1,9 @@
+---
+layout: default
+title:  'Additional Reading Material'
+---
+
+* [List of R colours and their names in a pdf](Materials/RColor.pdf)
+* [Rules for using colour in R graphics](Materials/rules_for_using_color.pdf)
+* [An overview of statistical tests with R examples](Materials/statests.pdf)
+  
