@@ -106,3 +106,110 @@ venn(list(G1=G1, G2=G2, G3=G3))
   LCM(p1, p2 + p3)
   {% endhighlight %} 
   </details>  
+
+## Exercise FNS3. Formulas<a id="orgheadline7"></a>
+Observe that there is a convenient way of validating your formulas:
+```r
+# First, define the formula
+frm <- formula(y ~ (v1 + v2 + v3) %in% v)
+# Check the validity of the above
+terms <- attr(terms.formula(frm), "term.labels")
+# See all terms that will be added together
+terms
+# Here: y ~ v1:v + v2:v + v3:v
+```
+
+1. Write formulas describing the following relations of $y$:
+  - depends on $var1$ and $var2$ but not on their interaction,
+  - depends on *height* but without the constant term,
+  - depends on interactions of 'a' with 'b' and 'a' with 'c' and 'a' with 'd' but without additive effects,
+  - like above, but with additive effects of single variables,
+  - like above, but without the constant term and without the additive effect of 'c'.
+ 
+  <details>
+  <summary>:key: Click to see an example of how to do this in R</summary>
+  {% highlight R %}
+  y ~ var1 + var2
+  y ~ +0 + height
+  frm <- formula(y ~ (b + c + d) %in% a)
+  # Check the validity of the above
+  terms <- attr(terms.formula(frm), "term.labels")
+  y ~ a * (b + c + d)
+  y ~ a * (b + c + d) - c
+  {% endhighlight %} 
+  </details>  
+
+## Exercise FNS4. Define and work with functions<a id="orgheadline8"></a>
+1. Define function: $f(x) = 2x^3 + 3x^2 + sin(x/2) + 7$ and finds its value for $x = 42$.
+  <details>
+  <summary>:key: Click to see an example of how to do this in R</summary>
+  {% highlight R %}
+  f <- function(x) {
+    y = 2*x^3 + 3*x^2 + sin(x/2) + 7
+    return(y)
+  }
+  f(42)
+  {% endhighlight %} 
+  f(42) = 153476
+  </details>  
+
+2. Find the $f(x)$ zeros on the $[-10, 10]$ interval, values at zeros and plot the function for the same interval.
+  <details>
+  <summary>:key: Click to see an example of how to do this in R</summary>
+  {% highlight R %}
+  uniroot(f, lower=-10, upper=10)
+  curve(f, from=-10, to=10)
+  {% endhighlight %} 
+  One zero: $f(-2.16) = 5.24\times10^{-5}$
+  </details>  
+  
+3. Find the first order derivative of $f(x)$ with respect to $x$. Use both *D()* and *deriv()*. Are the resulting derivatives the same? What is the difference between the functions?
+  <details>
+  <summary>:key: Click to see an example of how to do this in R</summary>
+  {% highlight R %}
+  D(expression(2*x^3 + 3*x^2 + sin(x/2) + 7), name='x')
+  deriv(~2*x^3 + 3*x^2 + sin(x/2) + 7, 'x')
+  {% endhighlight %} 
+  The resulting derivatives are the same, just written in different ways. *D()* takes an expression as argument and it returns an expression while *deriv()* works on formulas.
+  </details>  
+
+4. Evaluate the derivative from FNS4.3 at $x = {1, 3, 7}$. What values does it take at these points?
+
+  <details>
+  <summary>:key: Click to see an example of how to do this in R</summary>
+  {% highlight R %}
+  my.call <- D(expression(2*x^3 + 3*x^2 + sin(x/2) + 7), name='x')
+  x <- c(1, 3, 7)
+  eval(my.call)
+  {% endhighlight %} 
+  [1]  12.4  72.0 335.5
+  </details>  
+
+5. Perform numerical integration: $\int_1^7 f(x)$. 
+  - What is the value?
+  - What is the absolute estimation error?
+  
+  <details>
+  <summary>:key: Click to see an example of how to do this in R</summary>
+  {% highlight R %}
+  integrate(f, lower = 1, upper = 7)
+  {% endhighlight %} 
+  1588 with absolute error < 1.8e-11
+  </details>  
+
+## Exercise FNS5. Statistical tests<a id="orgheadline9"></a>
+1. Draw $N=30$ random observations from $N(0,1)$ (normal distribution with mean=0 and std. dev.=1) and $N=38$ random observations from $N(0.02,1.1)$. 
+- What statistical test(s) would you use to check whether the two samples come from the normal distribution?  
+- Can we really say something about the samples' normality? Why?
+- What parametric test would you use to check whether both samples come from the distribution with the same mean?
+- What do you have to check before you apply the test?
+
+<details>
+<summary>:key: Click to see the answer</summary>
+- For example, one can plot a QQ plot for both samples. One can also use Shapiro-Wilk test for normality. Can you think of any more tests?
+- Well, here sample size is low, we may get false results!
+- For instance the Student's t-test. It is appropriate for sample sizes below N=100. As a rule of thumb, N=30 is about sufficient.
+- Before applying the test, one has to check whether its assumptions are valid. Here, we have to check the normality first.
+</details>  
+
+
