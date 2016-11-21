@@ -212,4 +212,29 @@ terms
 - Before applying the test, one has to check whether its assumptions are valid. Here, we have to check the normality first.
 </details>  
 
-
+## Exercise FNS6. Linear model and diagnostics<a id="orgheadline9"></a>
+1. Package *UsingR* contains a data with fat measurements in 252 males. 
+  - load the dataset (install the package if necessary),
+  - read about the dataset in package help,
+  - construct a linear model with *body.fat* as the dependent variable and variables: *age*, *weight*, *height*, *neck* and *hip* as independent variables,
+  - perform model diagnostics,
+  - improve the model if necessary (hint: e.g. outliers),
+  - which variables are significant?
+  - how much of the variability can be explained by the model?
+  - how would you improve the model? Do this if you have time,
+<details>
+<summary>:key: Click to see the answer</summary>
+  {% highlight R %}
+  library('UsingR')
+  data('fat')
+  ?fat
+  model <- lm(body.fat ~ age + weight + height + neck + hip,  data=fat)
+  summary(model)
+  plot(model)
+  # Remove outliers
+  fat2 <- fat[-c(54, 39, 42), ]
+  model2 <- lm(body.fat ~ age + weight + height + neck + hip,  data=fat2)
+  summary(model2)
+  plot(model2)
+  {% endhighlight %} 
+</details>  
